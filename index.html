@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+<link rel="stylesheet" href="styl.css">
+</head>
+<body>
+
+  <header>
+    <h1>Harshal Shinde</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="about-image">
+        <img src="Harshal.jpeg" alt="Harshal Shinde">
+      </div>
+      <div class="about-text">
+        <h2>About me</h2>
+        <p>I am Harshal Shinde, an Artificial Intelligence and Data Science student with an interest in web development. I have knowledge of HTML, CSS, and Java, and I enjoy building simple, user-friendly web applications. I am eager to learn new technologies and grow my skills through projects and practical experience.
+</p>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills">
+      <div>
+        <h2>Technical Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Java</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Soft Skills</h2>
+        <ol>
+          <li>Communication</li>
+          <li>Leadership</li>
+          <li>Problem Solving</li>
+          <li>Team Work</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+      <h2>Education</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Course</th>
+            <th>Institute</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>B.Tech (Artificial Intelligence and Data Science)</td>
+            <td>AGCE</td>
+          </tr>
+          <tr>
+            <td>Higher Secondary Education</td>
+            <td>Star English medium school & Junior College Malkapur</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Iot based blood donation camp tracker</h3>
+          <p>Tracks blood donation camps and donor information using IoT technology..</p>
+        </div>
+        <div class="project-card">
+          <h3> Calculator </h3>
+          <p>software tool that quickly performs mathematical calculations such as addition, subtraction, multiplication, and division.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter Name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter Email" required>
+
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter Phone Number" required>
+
+        <label for="date">Date</label>
+        <input type="date" id="date" name="date">
+
+        <label for="gender">Gender</label>
+        <select id="gender" name="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Enter Message"></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Harshal Shinde. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
